@@ -2,11 +2,13 @@
   "name": "my-xyz-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://yomiaishida.github.io/Contact-app",
   "dependencies": {
     "axios": "^0.19.2",
     "bootstrap": "^4.4.1",
     "classnames": "^2.2.6",
     "cra-template": "1.0.2",
+    "gh-pages": "^2.2.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-router-dom": "^5.1.2",
@@ -14,6 +16,8 @@
     "uuid": "^7.0.3"
   },
   "scripts": {
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
