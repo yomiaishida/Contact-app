@@ -2,7 +2,7 @@
   "name": "my-xyz-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://yomiaishida.github.io/Contact-app",
+  "homepage": "https://yomiaishida.github.io/contact-app",
   "dependencies": {
     "axios": "^0.19.2",
     "bootstrap": "^4.4.1",
